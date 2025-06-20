@@ -5,8 +5,18 @@ export default function Header() {
     <header className="bg-blue-600 text-white p-4 flex justify-between items-center">
       <h1 className="text-xl font-bold">Meu Projeto</h1>
       <nav className="space-x-4">
-        <Link to="/" className="text-white hover:text-blue-200">Início</Link>
-        <Link to="/favoritos" className="text-white hover:text-blue-200">Favoritos</Link>
+        <Link 
+          to="/" 
+          className="text-white hover:text-yellow-300 transition-colors duration-200"
+        >
+          Início
+        </Link>
+        <Link 
+          to="/favoritos" 
+          className="text-white hover:text-yellow-300 transition-colors duration-200"
+        >
+          Favoritos
+        </Link>
       </nav>
     </header>
   );
